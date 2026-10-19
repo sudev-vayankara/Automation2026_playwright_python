@@ -5,3 +5,5 @@ __pycache__/
 *.pyc
 *.log
 download/
+.env.*
+!.env.example
