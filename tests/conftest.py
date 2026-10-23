@@ -46,3 +46,4 @@ async def chromium_page():
         yield page
 
         await browser.close()
+

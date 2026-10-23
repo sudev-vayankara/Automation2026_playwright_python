@@ -61,4 +61,8 @@ async def test_check_box(async_page):
     await async_page.goto("https://testautomationpractice.blogspot.com/")
     check_locator = async_page.locator("//div[@class='form-check form-check-inline']//input[@type='checkbox']")
     await check_locator.first.check()
+
+
+
+
     
