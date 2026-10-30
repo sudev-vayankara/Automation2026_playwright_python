@@ -1,5 +1,5 @@
 import pytest
-from _testcapi import awaitType
+#from _testcapi import awaitType
 from playwright.async_api import async_playwright
 
 # Abort specific network calls
@@ -11,7 +11,7 @@ async def test_block_img():
        browser = await p.chromium.launch(headless=False)
        page = await browser.new_page()
        async def hand_function(route):
-            req = route.requset
+            req = route.request
             url = req.url.lower() # resources :--> type
             res_type = req.resource_type
             if res_type in ["image","font"]:

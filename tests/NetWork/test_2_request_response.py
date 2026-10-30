@@ -1,5 +1,5 @@
 import pytest
-from _testcapi import awaitType
+#from _testcapi import awaitType
 from playwright.async_api import async_playwright
 
 # Abort specific network calls
@@ -12,7 +12,7 @@ async def test_req_res_logs():
        page = await browser.new_page()
 
        async def log_request(request):
-           if "/api/" in request.url:
+           #if "/api/" in request.url:
                print("\n--- API REQUEST ---")
                print("URL:", request.url)
                print("Method:", request.method)

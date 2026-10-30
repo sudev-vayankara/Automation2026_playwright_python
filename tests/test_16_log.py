@@ -1,5 +1,5 @@
 import pytest
-from _testcapi import awaitType
+#from _testcapi import awaitType
 from playwright.async_api import expect
 from pathlib import Path
 import sys

@@ -1,6 +1,7 @@
 import pytest
-from _testcapi import awaitType
+#from _testcapi import awaitType
 from playwright.async_api import async_playwright
+
 
 @pytest.mark.asyncio
 async def test_modify_req():
