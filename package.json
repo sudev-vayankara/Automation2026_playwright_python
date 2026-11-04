@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "lighthouse": "^13.6.0"
+  },
+  "dependencies": {
+    "axe-core": "^4.14.0"
+  },
+  "name": "playwrightmodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudev-vayankara/Automation2026_playwright_python.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sudev-vayankara/Automation2026_playwright_python/issues"
+  },
+  "homepage": "https://github.com/sudev-vayankara/Automation2026_playwright_python#readme"
+}
