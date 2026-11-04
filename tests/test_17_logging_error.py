@@ -1,5 +1,5 @@
 import pytest
-from log_config import logger
+from tests.log_config import logger
 @pytest.mark.asyncio
 async def test_main():
     logger.info("========== TEST EXECUTION STARTED ==========")

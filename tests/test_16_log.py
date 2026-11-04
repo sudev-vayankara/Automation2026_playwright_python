@@ -9,7 +9,7 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
 # Import logger configuration
-from log_config import logger
+from tests.log_config import logger
 
 
 def test_logging():
